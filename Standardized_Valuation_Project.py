@@ -8,8 +8,8 @@ api_key = "[ENTER ALPHAVANTAGE KEY]"
 master_stock = "[STOCK TICKER]"
 # Populate with tickers for comparative analysis
 comparison_tickers = [""]
-# Populate with PEG ratios for comparison tickers
-comparison_ticker_peg = [2.47, 1.92, 1.82, 1.86, 1.22, 0.87, 2.44, 1.35, 1.98, 1.02]
+# Populate with PEG ratios (decimal) for comparison tickers
+comparison_ticker_peg = []
 # PE Ratio of Index (S&P500 used as example)
 index_pe = 23.46
 # EPS Growth of Index
@@ -26,7 +26,7 @@ D = 0
 cost_of_equity = 0.00
 # Interest Expense (annually, In Dollars)
 interest_expense = 0
-# Corporate Tax Rate
+# US Corporate Tax Rate (expressed as decimal: 5% -> 0.05), 21% in 2023
 tax_rate = 0.21
 
 #####################################################################
